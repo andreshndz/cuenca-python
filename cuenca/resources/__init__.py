@@ -7,6 +7,7 @@ __all__ = [
     'CardTransaction',
     'Commission',
     'Deposit',
+    'LoginLink',
     'LoginToken',
     'ServiceProvider',
     'Statement',
@@ -23,6 +24,7 @@ from .card_transactions import CardTransaction
 from .cards import Card
 from .commissions import Commission
 from .deposits import Deposit
+from .login_links import LoginLink
 from .login_tokens import LoginToken
 from .resources import RESOURCES
 from .service_providers import ServiceProvider
@@ -42,6 +44,7 @@ resource_classes = [
     CardTransaction,
     Commission,
     Deposit,
+    LoginLink,
     LoginToken,
     ServiceProvider,
     Statement,
